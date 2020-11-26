@@ -1,0 +1,56 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/lin/documents/libuvc-net/src/Libuvc.Net.Test/Libuvc.Net.Test.csproj",
+    "projectName": "Libuvc.Net.Test",
+    "projectPath": "/home/lin/documents/libuvc-net/src/Libuvc.Net.Test/Libuvc.Net.Test.csproj",
+    "outputPath": "/home/lin/documents/libuvc-net/src/Libuvc.Net.Test/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/home/lin/documents/libuvc-net/src/Libuvc.Net/Libuvc.Net.csproj": {
+            "projectPath": "/home/lin/documents/libuvc-net/src/Libuvc.Net/Libuvc.Net.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "System.Drawing.Common": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+    }
+  }
+}

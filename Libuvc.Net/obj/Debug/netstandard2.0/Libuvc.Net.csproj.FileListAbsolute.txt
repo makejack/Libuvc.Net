@@ -1,0 +1,9 @@
+/home/lin/documents/libuvc-net/src/Libuvc.Net/bin/Debug/netstandard2.0/Libuvc.Net.deps.json
+/home/lin/documents/libuvc-net/src/Libuvc.Net/bin/Debug/netstandard2.0/Libuvc.Net.dll
+/home/lin/documents/libuvc-net/src/Libuvc.Net/bin/Debug/netstandard2.0/Libuvc.Net.pdb
+/home/lin/documents/libuvc-net/src/Libuvc.Net/obj/Debug/netstandard2.0/Libuvc.Net.csprojAssemblyReference.cache
+/home/lin/documents/libuvc-net/src/Libuvc.Net/obj/Debug/netstandard2.0/Libuvc.Net.AssemblyInfoInputs.cache
+/home/lin/documents/libuvc-net/src/Libuvc.Net/obj/Debug/netstandard2.0/Libuvc.Net.AssemblyInfo.cs
+/home/lin/documents/libuvc-net/src/Libuvc.Net/obj/Debug/netstandard2.0/Libuvc.Net.csproj.CoreCompileInputs.cache
+/home/lin/documents/libuvc-net/src/Libuvc.Net/obj/Debug/netstandard2.0/Libuvc.Net.dll
+/home/lin/documents/libuvc-net/src/Libuvc.Net/obj/Debug/netstandard2.0/Libuvc.Net.pdb

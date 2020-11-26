@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iT/nSUJf+6DtI7mBTi+EO0rTZP/Okw3JPGHVZKTsugEsECiR3eiPLyhDfLQ0S6zEA44g30iro+FdPHczUmPVyA==",
+  "success": true,
+  "projectFilePath": "/home/lin/documents/libuvc-net/src/Libuvc.Net/Libuvc.Net.csproj",
+  "expectedPackageFiles": [
+    "/home/lin/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/lin/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
