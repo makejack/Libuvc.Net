@@ -64,15 +64,6 @@ linux下使用System.Drawing.Common需要安装libgdiplus
                     }
                 }
                 bitmap.Save($"{Guid.NewGuid():N}.png");
-
-                // using (var ms = new MemoryStream())
-                // {
-
-                //     bitmap.Save(ms, ImageFormat.Jpeg);
-
-                //     System.Console.WriteLine(ms.Length);
-                // }
-
             }
             catch (Exception ex)
             {
