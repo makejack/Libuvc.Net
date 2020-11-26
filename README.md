@@ -1,5 +1,5 @@
 # Libuvc.Net
-Libuvc.Net 是使用linux下的libuvc
+Libuvc.Net 是使用linux下的libuvc获取摄像头
 
 需要使用cmake构建
 ```
