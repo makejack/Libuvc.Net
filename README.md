@@ -19,7 +19,7 @@ linux下使用System.Drawing.Common需要安装libgdiplus
 
 # 使用
 
-```
+``` c#
 
         static void Main(string[] args)
         {
