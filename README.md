@@ -72,4 +72,60 @@ linux下使用System.Drawing.Common需要安装libgdiplus
         }
         
 ```
+
+# RGb 转 BMP
+``` c#
+
+        private void RgbToBMP(byte[] buffer, int width, int height)
+        {
+            int yu = width * 3 % 4;
+            int bytePerLine = 0;
+            yu = yu != 0 ? 4 - yu : yu;
+            bytePerLine = width * 3 + yu; //1920
+
+            using (var stream = new MemoryStream())
+            {
+                using (var bw = new BinaryWriter(stream))
+                {
+                    bw.Write('B');
+                    bw.Write('M');
+                    bw.Write(bytePerLine * height + 54);
+                    bw.Write(0);
+                    bw.Write(54);
+                    bw.Write(40);
+                    bw.Write(width);
+                    bw.Write(height);
+                    bw.Write((ushort)1);
+                    bw.Write((ushort)24);
+                    bw.Write(0);
+                    bw.Write(bytePerLine * height);
+                    bw.Write(0);
+                    bw.Write(0);
+                    bw.Write(0);
+                    bw.Write(0);
+
+                    byte[] data = new byte[bytePerLine * height]; //921600
+
+                    var pos = 0;
+                    for (int y = height - 1; y >= 0; y--)
+                    {
+                        for (int x = 0, i = 0; x < width; x++, i += 3)
+                        {
+                            data[y * bytePerLine + i] = buffer[pos];  // R
+                            data[y * bytePerLine + i + 1] = buffer[pos + 1]; // G
+                            data[y * bytePerLine + i + 2] = buffer[pos + 2]; //B
+                            pos += 3;
+                        }
+                    }
+
+                    bw.Write(data, 0, data.Length);
+                    bw.Flush();
+
+                    stream.Seek(0, SeekOrigin.Begin);
+
+                      // other code
+                }
+            }
+        }
+```
      
